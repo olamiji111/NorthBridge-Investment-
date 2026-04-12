@@ -3,7 +3,7 @@ import { IBM_Plex_Sans, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 
 const ibmSans = IBM_Plex_Sans({
   variable: "--font-ibm",
@@ -11,17 +11,13 @@ const ibmSans = IBM_Plex_Sans({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
-  title: "NorthBridge Investment Capitals",
-  description: "NorthBridge Investment Capitals - secure , efficient and intelligent trading playform offering stocks, ETFS, crypto wallets, real-time market data, and AI powered auto-trading for investors, Manage Trades, track portfolios, and make informed financial dcisions covertly with ease, trading tools for a seamless investment experience.",
-  icons: {
-
-  },
+  title: "Plus500BOT",
+  description: "Plus500BOT - secure, efficient and intelligent trading platform offering stocks, ETFS, crypto wallets, real-time market data, and AI powered auto-trading for investors. Manage trades, track portfolios, and make informed financial decisions covertly with ease, trading tools for a seamless investment experience.",
+  icons: {},
   other: {
     'theme-color': '#040c29',
   },
-
 };
 
 export default function RootLayout({
@@ -31,9 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
-      <body
-        className={` ${ibmSans.variable} antialiased`}
-      >
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+      </head>
+      <body className={`${ibmSans.variable} antialiased`}>
         {children}
       </body>
     </html>

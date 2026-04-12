@@ -585,7 +585,207 @@ export const paymentTestimonials: paymentTransactionProps[] = [
         certificatePath: "/assets/images/client Certificate/6911f7be078a164b007dcefb_Kai-p-500.jpg"
     },
 
-]
+
+];
+
+interface searchMarketIconsProps {
+    imgPath: string;
+    symbol: string;
+    name: string | null;
+    href: string;
+}
+export const searchMarketIcons: searchMarketIconsProps[] = [
+    {
+        imgPath: "/assets/images/popularMarket/CL_border.png",
+        symbol: "CL",
+        name: "OIL",
+        href: "https://www.plus500.com/en-ng/instruments/cl"
+    },
+    {
+        imgPath: "/assets/images/popularMarket/NQ.png",
+        symbol: "NQ",
+        name: "Nasdaq 100",
+        href: "https://www.plus500.com/en-ng/instruments/nq"
+    },
+    {
+        imgPath: "/assets/images/popularMarket/BAIGUI.png",
+        symbol: "BAIGUI",
+        name: "AI Index",
+        href: "https://www.plus500.com/en-ng/instruments/baigui"
+    },
+    {
+        imgPath: "/assets/images/popularMarket/FDAX.png",
+        symbol: "FDAX",
+        name: "Germany 40",
+        href: "https://www.plus500.com/en-ng/instruments/fdax"
+
+    },
+    {
+        imgPath: "/assets/images/popularMarket/EURUSD.png",
+        symbol: "EUR/USD",
+        name: "",
+        href: "https://www.plus500.com/en-ng/instruments/eurusd"
+    },
+
+];
+
+interface LinkProps {
+    title: string;
+    href: string;
+}
+interface NavLinkProps {
+    title: string;
+    links: LinkProps[]
+}
+
+export const navLinks: NavLinkProps[] = [
+    {
+        title: "Market",
+        links: [
+            {
+                title: "CFDs",
+                href: ""
+            },
+            {
+                title: "Crypto",
+                href: "https://www.plus500.com/en-ng/trading/cryptocurrencies"
+            },
+            {
+                title: "Indices",
+                href: "https://www.plus500.com/en-ng/trading/indices"
+            },
+            {
+                title: "Forex",
+                href: "https://www.plus500.com/en-ng/trading/forex"
+            },
+            {
+                title: "commodities",
+                href: "https://www.plus500.com/en-ng/trading/commodities"
+            },
+            {
+                title: "Shares",
+                href: "https://www.plus500.com/en-ng/trading/shares"
+            },
+            {
+                title: "Options",
+                href: "https://www.plus500.com/en-ng/trading/options"
+            },
+            {
+                title: "ETFs",
+                href: "https://www.plus500.com/en-ng/trading/options"
+            },
+            {
+                title: "All Markets",
+                href: "https://www.plus500.com/en-ng/instruments"
+            },
+
+        ]
+
+
+    },
+    {
+        title: "Trading",
+        links: [
+            {
+                title: "Fees & Charges",
+                href: "https://www.plus500.com/en-ng/help/feescharges?productType=CFD"
+            },
+            {
+                title: "ESG",
+                href: "https://www.plus500.com/en-ng/help/feescharges?productType=CFD"
+            }
+        ]
+
+    },
+    {
+        title: "Company",
+        links: [
+            {
+                title: "About Us",
+                href: "https://www.plus500.com/en-ng/aboutus"
+            },
+            {
+                title: "Plus500Bot Reviews",
+                href: "https://www.plus500.com/en-ng/aboutus/reviews"
+            },
+            {
+                title: " Affilates",
+                href: "https://www.500affiliates.com"
+            },
+            {
+                title: " Investor Relations",
+                href: ""
+            },
+            {
+                title: "Cookies and Privacy",
+                href: ""
+            }
+        ]
+    },
+    {
+        title: "Learn",
+        links: [
+            {
+                title: "Glossary",
+                href: ""
+            },
+            {
+                title: "Forecasts",
+                href: ""
+            },
+            {
+                title: "Risk Management",
+                href: ""
+            },
+            {
+                title: "Economic Calendar",
+                href: ""
+            },
+            {
+                title: "Alerts",
+                href: ""
+            },
+            {
+                title: "Bots Auto Trade",
+                href: ""
+            }
+        ]
+    }
+];
+
+export const sponsorships: string[] = [
+    "Chicago Bulls",
+    "Legia Warsaw",
+    "BSC Young Boys"
+];
+
+interface SponsorshipListProps {
+    imgBackgroundPath: string;
+    logoPath: string;
+    title: string;
+    href: string;
+};
+
+export const SponsorShipDetails: SponsorshipListProps[] = [
+    {
+        imgBackgroundPath: "/assets/images/sponsorship/card-chicago-bulls.webp",
+        logoPath: "/assets/images/sponsorship/logo-bulls.svg",
+        title: "Chicago Bulls",
+        href: ""
+    },
+    {
+        imgBackgroundPath: "/assets/images/sponsorship/card-young-boys.webp",
+        logoPath: "/assets/images/sponsorship/logo-youngboys.svg",
+        title: "BSC Young Boys",
+        href: ""
+    },
+    {
+        imgBackgroundPath: "/assets/images/sponsorship/card-legia-warsaw.webp",
+        logoPath: "/assets/images/sponsorship/logo-legia.svg",
+        title: "Legia Warsaw",
+        href: ""
+    }
+];
 
 
 

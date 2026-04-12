@@ -11,12 +11,13 @@ import Contact from '@/sections/contact';
 import Moneyprotection from '@/sections/moneyprotection';
 import Footer from '@/sections/footer';
 import Paymentproof from '@/sections/paymentproof';
+import Sponsorship from '@/sections/sponsorships';
 
 const Home = () => {
   return (
     <main className="h-screen ">
       <Header />
-      <div className='h-full'>
+      <div className='h-full si'>
         <Hero />
         <Marketdata />
         <PageContent />
@@ -26,6 +27,7 @@ const Home = () => {
         <Traderexperience />
         <Moneyprotection />
         <Contact />
+        <Sponsorship />
         <Footer />
       </div>
     </main>
