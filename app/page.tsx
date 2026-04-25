@@ -15,9 +15,9 @@ import Sponsorship from '@/sections/sponsorships';
 
 const Home = () => {
   return (
-    <main className="h-screen ">
+    <main className="h-dvh ">
       <Header />
-      <div className='h-full si'>
+      <div className='h-full'>
         <Hero />
         <Marketdata />
         <PageContent />
