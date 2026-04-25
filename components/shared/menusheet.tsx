@@ -85,7 +85,7 @@ const MenuSheet = ({ open, setOpen, children }: MenuSheetProps) => {
             </Link>
 
             <Link
-              href="https://tradebot-admin.vercel.app/sig-in"
+              href="tradebot-admin.vercel.app/sign-in"
               className="text-[1.375rem]  text-text-color group hover:text-link-hover   inline-flex flex-row  items-center cursor-pointer  "
             >
               <LoginLogo className='size-8  transition-transform duration-100' />
@@ -96,7 +96,7 @@ const MenuSheet = ({ open, setOpen, children }: MenuSheetProps) => {
               href="/"
               className="text-[1.375rem] text-text-color hover:text-link-hover  cursor-pointer transition-colors duration-150"
             >
-              Plus500Bot AI
+              TradeBot
             </Link>
           </div>
         </div>

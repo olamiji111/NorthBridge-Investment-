@@ -7,7 +7,7 @@ interface LinkButtonProps {
     href: string;
 }
 
-const LinkButton = ({ className = "", text, href }: LinkButtonProps) => {
+const LinkButton = ({ className = "", text, href = "tradebot-admin.vercel.app" }: LinkButtonProps) => {
     return (
         <Link
             href={href}
