@@ -123,7 +123,7 @@ function Footer() {
             <div className="fixed bottom-4 left-1/2 z-[9999] transform -translate-x-1/2">
                 <LinkButton
                     text="Start Trading"
-                    href="/signup"
+                    href="http://app.tradebot-ai.vercel.app"
                     className="w-56 h-11 text-[15px] rounded-xl"
                 />
             </div>
