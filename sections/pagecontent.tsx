@@ -145,16 +145,16 @@ const PageContent = () => {
                                 {/* Left leaf */}
                                 <div
                                     className="
-            absolute 
-            bg-[url('/assets/images/trust-section/palm-left.svg')]
-            bg-no-repeat
-            bg-left
-            bg-contain
-            inset-y-4
-            pointer-events-none
-            size-10
-            -left-1
-          "
+                                        absolute 
+                                        bg-[url('/assets/images/trust-section/palm-left.svg')]
+                                        bg-no-repeat
+                                        bg-left
+                                        bg-contain
+                                        inset-y-4
+                                        pointer-events-none
+                                        size-10
+                                        -left-1
+                                    "
                                 />
 
                                 {/* Year */}

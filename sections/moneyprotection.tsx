@@ -106,7 +106,7 @@ const Portfolio = () => {
         <LinkButton
           text="Learn More"
           className="font-bold mt-2  text-lg w-full md:w-42 md:py-2 rounded-xl"
-          href="learnmore"
+          href="https://app.autotraderai.online"
         />
       </div>
       <div className="max-h-full py-4 mt-4 md:py-0 md:max-w-[40%]">
@@ -139,7 +139,7 @@ const TaxFree = () => {
           <LinkButton
             text="open account"
             className="  rounded-xl font-bold mt-2 text-lg w-full md:w-42 md:py-2 "
-            href="/(auth)/signin"
+            href="https://app.autotraderai.online"
           />
         </div>
 
@@ -159,7 +159,7 @@ const TaxFree = () => {
           <LinkButton
             text="open account"
             className="  rounded-xl font-bold mt-2 text-lg w-full md:w-42 md:py-2 "
-            href="/(auth)/signin"
+            href="https://app.autotraderai.online"
           />
         </div>
 
