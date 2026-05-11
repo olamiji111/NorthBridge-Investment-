@@ -3,7 +3,7 @@ import { SocialMediaIcons, paymentMethodsIcons, footerLinks } from '@/constants'
 import Link from 'next/link';
 import Image from 'next/image';
 import LinkButton from '@/components/shared/linkbutton';
-import { PlusBotLogo } from '@/components/icons/icons';
+import { AutoTraderLogo } from '@/components/icons/icons';
 
 
 function Footer() {
@@ -89,16 +89,14 @@ function Footer() {
                 <p>
                     The information on this site is intended for individuals in jurisdictions where plus500Bot is permitted to offer its services. Eligibility may vary depending on local laws and regulatory requirements. Residents of restricted or unsupported jurisdictions will be informed accordingly and may not be eligible to register or trade on our platform.
                 </p>
-                <div className=" px-4 md:px-0 h-[0.069rem] w-full bg-zinc-200 relative mt-6 " />
+                <div className=" px-4 md:px-0 h-[0.069rem] w-full bg-zinc-200 relative mt-6  max-w-full " />
             </div>
-            <div className=' flex py-2 pr-4 pb-24 flex-col items-center justify-center gap-y-4 space-y-2 '>
-                <div className='flex flex-row justify-center w-full  gap-x-8 items-center '>
-                    <Link href="/" aria-label='AutoTradeInc AI Investment Home page' className=' flex items-baseline scale-80 sm:scale-100   cursor-pointer flex-row   gap-0  duration-300 hover:-translate-z-0.5 active:translate-0.5'>
-                        <PlusBotLogo />
-                        <span className='font-extrabold text-4xl text-white tracking-[-0.2rem]'> BOT </span>
-                    </Link>
+            <div className=' flex py-2  pb-24 flex-col items-center justify-center gap-y-6 w-full'>
 
-                </div>
+                <Link href="/" aria-label='AutoTradeInc AI Investment Home page' className='w-full flex items-center pl-8 justify-center  cursor-pointer   duration-300 transition-all'>
+                    <AutoTraderLogo />
+
+                </Link>
                 <div className="flex flex-wrap items-center justify-center gap-y-4 gap-x-0 w-full mx-auto">
                     {footerLinks.map((item, idx) => (
                         <React.Fragment key={idx}>

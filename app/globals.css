@@ -3,26 +3,53 @@
 @custom-variant dark (&:is(.dark *));
 
 /* Heina Regular */
+
+
 @font-face {
-  font-family: "heina";
-  src: url(/assets/fonts/d1038378d864f16c-s.p.woff2) format("woff2");
-  font-weight: 400;
+  font-family: "icoplus";
+  src: url(/assets/fonts/icoplus.woff2) format("woff2");
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
-/* Heina SemiBold */
 @font-face {
-  font-family: "heina";
-  src: url(/assets/fonts/52f31a66e26fb00a-s.p.woff2) format("woff2");
-  font-weight: 500;
+  font-family: "pds";
+  src: url(/assets/fonts/pdsicons.woff2) format("woff2");
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
-.heina {
-  font-family: "heina";
+.icon {
+  font-family: "icoplus";
+  /* or prisons if that is the real icon font */
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1;
 }
+
+.icon-pds {
+  font-family: "pds";
+  /* or prisons if that is the real icon font */
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+.icon-livechat:before {
+  content: "\e93e"
+}
+
+.icon-contact::before {
+  content: "\e9c6"
+}
+
+.icon-help::before {
+  content: "\e9a7"
+}
+
+
 
 .ibm {
   font-family: var(--font-ibm);

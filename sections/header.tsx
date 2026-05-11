@@ -3,12 +3,12 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, SupportIcon } from '@/components/icons/icons';
+import { AutoTraderLogo, Search, SupportIcon } from '@/components/icons/icons';
 import { useRouter } from 'next/navigation';
 import LinkButton from '@/components/shared/linkbutton';
 import SearchPopover from '@/components/shared/searchpopover';
 import MenuSheet from '@/components/shared/menusheet';
-import { PlusBotLogo } from "@/components/icons/icons"
+
 
 const Header = () => {
   const router = useRouter();
@@ -21,12 +21,11 @@ const Header = () => {
       <header className=' headerwrapper w-full '>
         <div className='  max-w-full '>
           <section title="announcement" className=' select-none bg-alert-bg  rounded-px px-2 text-center'>
-            <span className='text-alert-color text-[13px] sm:text-sm  '> Plus500Bot leverages our proprietary <span className='font-bold '>Plus500Bot AI</span>   to manage your market trades with precision and accuracy.</span>
+            <span className='text-alert-color text-[13px] sm:text-sm  '> AutoTraderInc leverages our proprietary <span className='font-bold '>xora bot AI</span>   to manage your market trades with precision and accuracy.</span>
           </section>
-          <nav className='sm:px-6 pr-4  py-1.5 bg-navbar-bg transition-colors duration-300 flex-between w-full flex-wrap  '>
-            <Link href="/" aria-label='NorthBridge Investment Home page' className=' flex items-baseline scale-80 sm:scale-100   cursor-pointer flex-row   gap-0  duration-300 hover:-translate-z-0.5 active:translate-0.5'>
-              <PlusBotLogo />
-              <span className='font-extrabold text-4xl text-white tracking-[-0.2rem]'> BOT </span>
+          <nav className='px-2 sm:px-2 py-3 bg-navbar-bg transition-colors duration-300 flex-between w-full flex-wrap  '>
+            <Link href="/" aria-label='NorthBridge Investment Home page' className='transition-all   cursor-pointer duration-300 '>
+              <AutoTraderLogo viewBox='0 0 280 36' />
             </Link>
             <div className='flex flex-row items-center  gap-x-3 space-x-1'>
               <SearchPopover open={searchOpen} setOpen={setSearchOpen}>

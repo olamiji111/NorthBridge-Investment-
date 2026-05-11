@@ -14,7 +14,27 @@ const MoneySection = () => {
 
             <h2 className='text-2xl sm:text-3xl md:text-4xl  ibm capitalize font-semibold'> Take control of your funds</h2>
             {/* arrangement for small screens */}
-            <div className=" sm:hidden mt-6">
+
+            <div className=" sm:hidden mt-6 relative z-10  rounded-3xl px-4 py-6 flex flex-col gap-y-6">
+
+                <div
+                    className="
+                            absolute
+                            left-[-10%]
+                            top-[-40%]
+                            w-[120%]
+                            h-[175%]
+                            -z-10
+                            bg-[url('/assets/images/support-illustration-backlights.svg')]
+                            bg-center
+                            bg-no-repeat
+                            bg-[length:200%]
+                            pointer-events-none
+                            opacity-90
+                            rounded-3xl
+                            
+                        "
+                />
                 <div className=" flex  flex-col items-start gap-y-1 ">
                     <Image
                         src={firstItem.imgPath}
@@ -62,7 +82,9 @@ const MoneySection = () => {
                 </div>
             </div>
 
-            <div className="hidden md:flex gap-x-8 space-x-2 items-start py-8  snap-start shrink-0">
+            <div className="hidden  relative z-10  sm:flex gap-x-8 space-x-2 items-start py-8  snap-start shrink-0">
+
+
                 {MoneySectionPropery.map((item, idx) => (
                     <div key={idx} className="flex flex-col space-y-1">
 
@@ -114,6 +136,8 @@ const MoneySection = () => {
                 </div>
                 <div className="h-px w-full bg-white rounded-none" />
             </div>
+
+
 
         </section>
     );
