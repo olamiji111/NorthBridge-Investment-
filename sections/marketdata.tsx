@@ -38,7 +38,7 @@ const Marketdata = () => {
     ">
 
                 {/* BIG TOP LEFT */}
-                <Link href="https://www.plus500.com/en-ng/instruments/cl" className="bg-logo-color   hover:bg-[#052fce] rounded-xl col-start-1 col-span-2 row-start-1 row-span-2  flex flex-col items-start  border border-transparent relative m-0  transition-colors duration-300">
+                <Link href="https://www.plus500.com/en-ng/instruments/cl" className="bg-logo-color    hover:bg-[#052fce] rounded-xl col-start-1 col-span-2 row-start-1 row-span-2  flex flex-col items-start  border border-transparent relative m-0  transition-colors duration-300">
                     <div className="flex-row flex gap-x-2 items-center p-2">
                         <Image
                             alt="Oil Market"

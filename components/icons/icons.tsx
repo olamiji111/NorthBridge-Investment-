@@ -12,17 +12,17 @@ export const LoginLogo = ({ className = "" }: { className?: string }) => {
 
 export const AutoTraderLogo = ({
     className = "",
-    viewBox = "",
+
 }: {
     className?: string;
-    viewBox?: string;
+
 }) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="240"
+            width="280"
             height="36"
-            viewBox={viewBox || "0 0 240 36"}
+            viewBox="0 0 280 36"
             fill="none"
             className={className}
         >

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react'
-import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover"
+import { Popover, PopoverTrigger, PopoverContent, PopoverTitle } from "@/components/ui/popover"
 import { Search } from '@/components/icons/icons';
 import { searchMarketIcons } from "@/constants";
 import Image from "next/image";
@@ -39,7 +39,9 @@ const SearchPopover = ({ open, setOpen, children }: searchOpenProps) => {
          rounded-3xl 
           border  translate-x-5
           z-9999 px-6 py-6 
-          shadow-[0_8px_30px_6px_rgba(9,25,77,0.4),0_4px_12px_0_rgba(9,25,77,0.4)]'>
+          shadow-[0_8px_30px_6px_rgba(9,25,77,0.4),0_4px_12px_0_rgba(9,25,77,0.4)]'
+        >
+
           <div className='h-full flex flex-col gap-y-6'>
             <div className='flex flex-row items-center gap-x-2 bg-white border-transparent rounded-full py-3 px-2.5 transition-shadow duration-200
             focus-within:shadow-[0_0_6px_3px_#5596ff] 

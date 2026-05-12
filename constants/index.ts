@@ -643,6 +643,10 @@ export const navLinks: NavLinkProps[] = [
         title: "Market",
         links: [
             {
+                title: "Poly Markets",
+                href: ""
+            },
+            {
                 title: "CFDs",
                 href: ""
             },

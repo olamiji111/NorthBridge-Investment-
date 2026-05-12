@@ -126,8 +126,8 @@ const PageContent = () => {
 
             {/* Awards Section */}
             <div className="mt-8" aria-label="Top Industry Awards Section">
-                <h2 className="text-[1.5rem] mt-5 tracking-tighter capitalize font-semibold text-text-color wrap-break-word heina">
-                    Top Industry Awards
+                <h2 className="text-[1.5rem] whitespace-nowrap mt-5 tracking-tighter capitalize font-semibold text-text-color wrap-break-word heina">
+                    AutoTraderInc Top Industry Awards
                 </h2>
                 <div
                     ref={awardsRef}
