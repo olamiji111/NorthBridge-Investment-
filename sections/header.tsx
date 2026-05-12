@@ -21,7 +21,7 @@ const Header = () => {
       <header className=' headerwrapper w-full '>
         <div className='  max-w-full '>
           <section title="announcement" className=' select-none font-medium bg-alert-bg  rounded-px px-2 text-center'>
-            <span className='text-alert-color text-[13px] sm:text-sm  '> AutoTraderInc leverages our proprietary <span className='font-bold '>xora bot AI</span>   to manage your market trades with precision and accuracy.</span>
+            <span className='text-alert-color text-[13px] sm:text-sm  '> AutoTraderInc leverages our proprietary <span className='font-bold '>orion AI</span>   to manage your market trades with precision and accuracy.</span>
           </section>
           <nav className='px-2 sm:px-2 py-3 bg-navbar-bg transition-colors duration-300 flex-between w-full flex-wrap  '>
             <Link href="/" aria-label='NorthBridge Investment Home page' className='transition-all   cursor-pointer duration-300 '>
