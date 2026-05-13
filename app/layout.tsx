@@ -14,9 +14,9 @@ const ibmSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "AutoTraderInc",
-  description: "AutoTraderInc - secure, efficient and intelligent trading platform offering stocks, ETFS, crypto wallets, real-time market data, and AI powered auto-trading for investors. Manage trades, track portfolios, and make informed financial decisions covertly with ease, trading tools for a seamless investment experience.",
+  description: "AutoTraderInc is an AI-powered automated trading platform using OrionAI to analyze global markets and financial instruments in real time. It executes smart trades across stocks, ETFs, and crypto, helping investors optimize portfolios, reduce risk, and capitalize on market opportunities with advanced algorithmic precision.",
   icons: {
-    icon: "app/favicon.ico",
+    icon: "/favicon.ico",
   },
   other: {
     'theme-color': '#040c29',
