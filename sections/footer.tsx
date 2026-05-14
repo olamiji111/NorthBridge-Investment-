@@ -42,14 +42,14 @@ function Footer() {
                 </div>
             </div>
             <div className='w-full pt-8 mt-2 text-justify px-4 md:px-0 text-[14px] sm:text-[15px] md:text-sm  text-white flex flex-col gap-y-3.5 md:gap-y-5 items-start'>
-                <p className='text-center'> Investing for 5+ years can boost your chances of gains over cash savings. Values may rise or fall, so you could get back less. Relax—our <span className='font-bold text-medium-blue'>orion AI</span> trades automatically with expert precision.</p>
+                <p className='text-center'> Investing for 5+ years can boost your chances of gains over cash savings. profits will always be maximized so you could get back less. Relax—our <span className='font-bold text-medium-blue'>orion AI</span> trades automatically with expert precision.</p>
 
                 <p>  <span className='font-bold'> AutoTraderInc Ltd</span> is a trading name of  <span className='font-bold'> AutoTraderInc Ltd</span>, registered in the US. All services are provided under US regulations.</p>
 
                 <p>
                     <span className='font-bold'> AutoTraderInc Ltd</span>  is registered in England and Wales (
                     <span className='text-medium-blue cursor-pointer hover:underline'>Company number 09882007</span>
-                    ). Registered address: 10 Bridge Street, London, EC4N 1AB. plus500Bot Ltd. is authorised and regulated by the Financial Conduct Authority (
+                    ). Registered address: 10 Bridge Street, London, EC4N 1AB. AutoTraderInc Ltd. is authorised and regulated by the Financial Conduct Authority (
                     <span className='text-medium-blue cursor-pointer hover:underline'>Firm reference number 704567</span>
                     ).
                 </p>
@@ -57,7 +57,7 @@ function Footer() {
                 <p>
                     <span className='font-bold'> AutoTraderInc Ltd</span> is registered in Australia (
                     <span className='text-medium-blue cursor-pointer hover:underline'>ABN 23 727 219 821</span>
-                    ). Registered address: Level 5, 88 King Street, Melbourne VIC 3000. plus500Bot AU Pty Ltd. is authorised and regulated by the Australian Securities and Investments Commission (
+                    ). Registered address: Level 5, 88 King Street, Melbourne VIC 3000. AutoTraderInc AU Pty Ltd. is authorised and regulated by the Australian Securities and Investments Commission (
                     <span className='text-medium-blue cursor-pointer hover:underline'>AFSL 2189092</span>
                     ).
                 </p>
@@ -65,7 +65,7 @@ function Footer() {
                 <p>
                     <span className='font-bold'> AutoTraderInc Ltd</span> EU GmbH is registered in Germany (
                     <span className='text-medium-blue cursor-pointer hover:underline'>Company number HRB 482761</span>
-                    ). Registered address: Königsallee 92A, 40212 Düsseldorf, Germany. plus500Bot EU GmbH is authorised and regulated by the German Federal Financial Supervisory Authority (
+                    ). Registered address: Königsallee 92A, 40212 Düsseldorf, Germany. AutoTraderInc EU GmbH is authorised and regulated by the German Federal Financial Supervisory Authority (
                     <span className='text-medium-blue cursor-pointer hover:underline'>BaFin ID 9472018</span>
                     ).
                 </p>
@@ -73,7 +73,7 @@ function Footer() {
                 <p>
                     <span className='font-bold'> AutoTraderInc Ltd</span> is registered in Bulgaria (
                     <span className='text-medium-blue cursor-pointer hover:underline'>Company number 209874561</span>
-                    ). Registered address: 18 Vitosha Boulevard, floor 6, 1000 Sofia, Bulgaria. plus500Bot Ltd. is authorised and regulated by the Financial Supervision Commission (
+                    ). Registered address: 18 Vitosha Boulevard, floor 6, 1000 Sofia, Bulgaria. AutoTraderInc Ltd. is authorised and regulated by the Financial Supervision Commission (
                     <span className='text-medium-blue cursor-pointer hover:underline'>License number RG-03-4821</span>
                     ).
                 </p>
@@ -81,7 +81,7 @@ function Footer() {
                 <p>
                     <span className='font-bold'> AutoTraderInc Ltd</span> is registered in Cyprus (
                     <span className='text-medium-blue cursor-pointer hover:underline'>Company number HE 582941</span>
-                    ). Registered address: 12 Archbishop Makarios III Avenue, 3rd floor, Office 4, 3030, Limassol, Cyprus. plus500Bot Markets Ltd. is authorised and regulated by the Cyprus Securities and Exchange Commission (
+                    ). Registered address: 12 Archbishop Makarios III Avenue, 3rd floor, Office 4, 3030, Limassol, Cyprus. AutoTraderInc Markets Ltd. is authorised and regulated by the Cyprus Securities and Exchange Commission (
                     <span className='text-medium-blue cursor-pointer hover:underline'>License number 472/26</span>
                     ).
                 </p>
