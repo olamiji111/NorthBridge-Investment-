@@ -18,6 +18,21 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: "AutoTraderInc",
+    description: "AutoTraderInc is an AI-powered automated trading platform using OrionAI to analyze global markets and financial instruments in real time. It executes smart trades across stocks, ETFs, and crypto, helping investors optimize portfolios, reduce risk, and capitalize on market opportunities with advanced algorithmic precision.",
+    url: "https://autotraderai.online",
+    siteName: "AutoTraderInc",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "AutoTraderInc",
+      }
+    ],
+    type: "website",
+  },
   other: {
     'theme-color': '#040c29',
   },
