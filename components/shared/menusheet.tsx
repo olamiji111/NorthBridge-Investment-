@@ -78,7 +78,7 @@ const MenuSheet = ({ open, setOpen, children }: MenuSheetProps) => {
 
           <div className="flex flex-col gap-y-4.5 items-start">
             <Link
-              href="/support"
+              href="https://tawk.to/chat/6a069e0d9f3e811c3945a95f/1joktiq2n"
               className="text-[1.375rem] text-text-color  hover:text-link-hover cursor-pointer  transition-colors duration-150"
             >
               Support
@@ -90,13 +90,6 @@ const MenuSheet = ({ open, setOpen, children }: MenuSheetProps) => {
             >
               <LoginLogo className='size-8  transition-transform duration-100' />
               <span> Login </span>
-            </Link>
-
-            <Link
-              href="/"
-              className="text-[1.375rem] text-text-color hover:text-link-hover  cursor-pointer transition-colors duration-150"
-            >
-              TradeBot
             </Link>
           </div>
         </div>

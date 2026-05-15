@@ -709,7 +709,7 @@ export const navLinks: NavLinkProps[] = [
                 href: "https://www.plus500.com/en-ng/aboutus"
             },
             {
-                title: "Plus500Bot Reviews",
+                title: "AutoTraderInc Reviews",
                 href: "https://www.plus500.com/en-ng/aboutus/reviews"
             },
             {
@@ -749,10 +749,6 @@ export const navLinks: NavLinkProps[] = [
                 title: "Alerts",
                 href: ""
             },
-            {
-                title: "Bots Auto Trade",
-                href: ""
-            }
         ]
     }
 ];

@@ -41,7 +41,7 @@ const Header = () => {
 
                 </button>
               </SearchPopover>
-              <Link href="https://www.plus500.com/en-ng/tradingacademy/faq" className='cursor-pointer transition-colors duration-150'>
+              <Link href="https://tawk.to/chat/6a069e0d9f3e811c3945a95f/1joktiq2n" className='cursor-pointer transition-colors duration-150'>
                 <SupportIcon className='h-5 w-5 text-white hover:text-search-hover' />
               </Link>
               <div className='hidden sm:flex'>

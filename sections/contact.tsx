@@ -263,13 +263,13 @@ const Contact = () => {
                     </p>
 
                     <div className=" py-4 flex flex-row items-center justify-center gap-x-2 space-x-1">
-                        <Link href="/" className='px-5 py-3  rounded-[1rem] flex flex-row items-center space-x-1 text-[#1844b5] border-transparent  bg-[#eef7ff] cursor-pointer hover:bg-[#bcdeff] font-bold transition-colors duration-300 '>
+                        <Link href="https://tawk.to/chat/6a069e0d9f3e811c3945a95f/1joktiq2n" className='px-5 py-3  rounded-[1rem] flex flex-row items-center space-x-1 text-[#1844b5] border-transparent  bg-[#eef7ff] cursor-pointer hover:bg-[#bcdeff] font-bold transition-colors duration-300 '>
                             <MessageCircle strokeWidth={2} />
                             <span className='ibm'> Chat</span>
                         </Link>
-                        <div className='flex items-start text-[#8ecaff] hover:text-[#bcdeff] cursor-pointer transition-colors duration-150'>
+                        <Link href="mailto:autotraderinc@gmail.com" className='flex items-start text-[#8ecaff] hover:text-[#bcdeff] cursor-pointer transition-colors duration-150'>
                             <Mail />
-                        </div>
+                        </Link>
                     </div>
                     <Linktext href="faq" text="Visit our FAQs" className='font-bold text-[16px] ' iconSize={21} />
 
