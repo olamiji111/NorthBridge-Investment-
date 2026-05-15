@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/preview.png",
-        width: 1200,
-        height: 630,
+        width: 512,
+        height: 512,
         alt: "AutoTraderInc",
       }
     ],
